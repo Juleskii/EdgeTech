@@ -1,10 +1,4 @@
 # ISM4154_Project-
 
-This is new
+We will be working on the ISM4154 project within this folder.
 
-Changes this
-
-This seems like it's working
-
-Good job
-Can yo commit
