@@ -7,7 +7,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -17,7 +19,6 @@ html {
   color: black;
   text-align: center;
 }
-
 
 .column {
   float: left;
@@ -29,13 +30,12 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
-  
 }
 
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #434c61;
+  background-color: #17468d;
   color: whitesmoke;
 }
 
@@ -43,7 +43,8 @@ html {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;
