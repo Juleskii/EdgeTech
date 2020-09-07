@@ -7,6 +7,49 @@ html {
   box-sizing: border-box;
 }
 
+/* The nav bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+
+  /* Change background on mouse-over */
+  .navbar a-hover {
+    background: #ddd;
+    color: black;
+  }
+}
+/* This is the Tap&Fix paragraph. Should we change this? */
+.aboutP {
+  font-size: 1.6em;
+}
+
+/* This may changed to a smaller text */
+#slogan {
+  font-size: 3em;
+}
+
+.main {
+  /* Add a top margin to avoid content overlay */
+  margin-top: 30px;
+}
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
 *,
 *:before,
 *:after {
@@ -14,7 +57,7 @@ html {
 }
 
 /* Email edit */
-#email {
+.email {
   font: bold;
   color: black;
   text-align: center;
@@ -28,7 +71,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   margin: 8px;
 }
 
