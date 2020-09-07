@@ -11,6 +11,14 @@ html {
   box-sizing: inherit;
 }
 
+/* Email edit */
+#email {
+  font: bold;
+  color: black;
+  text-align: center;
+}
+
+
 .column {
   float: left;
   width: 33.3%;
@@ -21,6 +29,7 @@ html {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  
 }
 
 .about-section {
@@ -38,6 +47,10 @@ html {
   content: "";
   clear: both;
   display: table;
+}
+.container img {
+  width: 100%;
+  height: auto;
 }
 
 .title {
