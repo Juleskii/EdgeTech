@@ -38,7 +38,7 @@ html {
 
 /* This may changed to a smaller text */
 #slogan {
-  font-size: 3em;
+  font-size: 1em;
 }
 
 .main {
@@ -78,7 +78,8 @@ html {
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #17468d;
+  /* background-image: url("/KennethJules.jpg") no-repeat; */
+  background-color: #154854;
   color: whitesmoke;
 }
 
@@ -114,7 +115,7 @@ html {
 }
 
 .button:hover {
-  background-color: #555;
+  background-color: #154854;
 }
 
 @media screen and (max-width: 650px) {
