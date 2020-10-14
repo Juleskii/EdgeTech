@@ -1,3 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(/EdgeTech-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  position: relative;
+}
+.nav-bar {
+  display: flex;
+  padding: 40px 120px;
+}
+
+/* Need to push logo up  */
+.nav-logo img{
+  width: 200px;
+  float: left;
+}
+.nav-links {
+  flex: 1;
+
+}
+.nav-links ul{
+  margin-left: 50px;
+  display: inline;
+}
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px 25px;
+
+}
+.nav-links ul a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #FFF952;
+  display: block;
+  margin: auto;
+  transition: .5s;
+}
+.nav-links ul li::hover::after{
+  width: 100%;
+
+}
+.btn {
+  padding: 10px 20px;
+  border: 0;
+  background: #FFF952;
+  cursor: pointer;
+}
+.btn_1 {
+  padding: 10px 20px;
+  margin-left: 25px;
+  border: 0;
+  background: #FFF952;
+  cursor: pointer;
+}
+.nav-links .btn {
+  float: right;
+}
+.banner-title{
+  margin: 80px 130px;
+  color: #fff;
+}
+.banner-title h1{
+  font-size: 64px;
+  margin-bottom: 38px; 
+}
+.banner-title h1 span{
+  color: #FFF952;  
+
+}
+.vertical-bar{
+  height: 100%;
+  background: #000;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.search-icon{
+  height: 60%;
+  width: 80px;
+}
+.search-icon .fas{
+  margin: 45px 23px;
+  display: block;
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+.social-icons {
+  height: 35%;
+  width: 80px;
+  background: #FFF952;
+  text-align: center;
+  bottom: 0;
+  padding-top: 27%;
+  position: absolute;
+}
+.social-icons .fab{
+  margin: 15px 23px;
+  display: block;
+  padding: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  column-gap: 1em;
+  row-gap: 1em;
+  
+}
+.wrapper > div{
+  background: #eee;
+  padding: 1em;
+}
+.wrapper > div:nth-child(odd){
+  background: #ddd;
+}
+/* Our Team section */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -7,60 +142,8 @@ html {
   box-sizing: border-box;
 }
 
-/* The nav bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-/* Links inside the navbar */
-.navbar a {
-  float: center;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  display: inline-block;
-
-  /* Change background on mouse-over */
-  .navbar a-hover {
-    background: #ddd;
-    color: black;
-  }
-}
-/* This is the Tap&Fix paragraph. Should we change this? */
-.aboutP {
-  font-size: 1.6em;
-}
-
-/* This may changed to a smaller text */
-#slogan {
-  font-size: 1em;
-}
-
-.main {
-  /* Add a top margin to avoid content overlay */
-  margin-top: 30px;
-}
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-}
-
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
-}
-
-/* Email edit */
-.email {
-  font: bold;
-  color: black;
-  text-align: center;
 }
 
 .column {
@@ -71,31 +154,27 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
 
 .about-section {
   padding: 50px;
   text-align: center;
-  /* background-image: url("/KennethJules.jpg") no-repeat; */
-  background-color: #154854;
-  color: whitesmoke;
+  background-color: #474e5d;
+  color: white;
 }
 
 .container {
   padding: 0 16px;
+  color: white;
+  padding-left: 250px;
 }
 
-.container::after,
-.row::after {
+.container::after, .row::after {
   content: "";
   clear: both;
   display: table;
-}
-.container img {
-  width: 100%;
-  height: auto;
 }
 
 .title {
@@ -115,7 +194,7 @@ html {
 }
 
 .button:hover {
-  background-color: #154854;
+  background-color: #555;
 }
 
 @media screen and (max-width: 650px) {
@@ -124,3 +203,5 @@ html {
     display: block;
   }
 }
+
+/* Our team section ends */

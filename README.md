@@ -10,4 +10,11 @@ We will be working on the ISM4154 project within this folder.
 
   Create an about us page, business logo, page listing products (5-10), customer registration page, customer checkout page. 
 
+  ### TODOs
+    -Creating the folder
+    -Adding files
+    -Connecting files
+
+    
+
   
