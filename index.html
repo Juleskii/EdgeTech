@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,86 +8,75 @@
   <script src="https://kit.fontawesome.com/d22a238dc6.js" crossorigin="anonymous"></script>
   <title>EdgeTech: Online Store</title>
 </head>
+
 <body>
   <div class="hero">
-    <div class="nav-bar">
     <div class="nav-logo">
-        <img src="/EdgeTech-logo2.png" alt="EdgeTech logo">
-      </div>
+      <img src="EdgeTech-logo2.png" alt="EdgeTech logo">
+    </div>
+    <div class="nav-bar">
       <div class="nav-links">
         <ul>
-          <a href="/index.html"><li>HOME</li></a>
-          <a href="/about.html"><li>ABOUT</li></a>
-          <a href="/login.html"><li>LOGIN</li></a>
-          <a href="/checkout.html"><li>CART</li></a>
+          <a href="/index.html">
+            <li>HOME</li>
+          </a>
+          <a href="/about.html">
+            <li>ABOUT</li>
+          </a>
+          <a href="/register.html">
+            <li>SIGN UP</li>
+          </a>
+          <a href="/login.html">
+            <li>LOGIN</li>
+          </a>
+          <a href="/checkout.html">
+            <li>CART</li>
+          </a>
         </ul>
-        <button type="button" class="btn">SIGN UP</button>
-        <button type="button" class="btn_1">LOGIN</button>
       </div>
-      </div>
-      <div class="banner-title">
-        <h1>Tech <span>doesn't have<br> a religion.</span> It is a religion</h1>
-        <button type="button" class="btn">EXPLORE</button>
-      </div>
-      <div class="vertical-bar">
-        <div class="search-icon">
-          <i class="fas fa-list-ul"></i>
-          <i class="fas fa-search"></i>
-        </div>
-        <div class="social-icons">
-          <i class="fab fa-facebook-square"></i>
-          <i class="fab fa-instagram"></i>
-          <i class="fab fa-twitter"></i>
-        </div>
-      </div>
-
-      <!-- CSS Grid Layout -->
-  <!-- Add products -->
-  <div class="wrapper">
-    <!-- CPU Product -->
-    <div>
-      Intel Core i9-9900K Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo) LGA 1151 (300 Series) 95W BX806849900K Desktop Processor Intel UHD Graphics 630
     </div>
-    <div>
-      $399.99
+    <div class="banner-title" style="text-align: center;">
+      <h1>Tech <span>doesn't have<br> a religion.</span> It is a religion</h1>
     </div>
 
-    <!-- Motherboard Product -->
-    <div>
-      ASUS ROG STRIX Z490-F GAMING LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard
+    <!-- Product cards -->
+    <div class="product_card">
+      <img src="cpu.jpg" alt="Processor" style="width:100%">
+      <h1>Intel Core i9-10900KF Desktop Processor</h1>
+      <p class="price">$19.99</p>
+      <p>Coffee Lake 8-Core, 16-Thread, 3.6 GHz (5.0 GHz Turbo) LGA 1151 (300 Series) 95W BX806849900K Desktop Processor Intel UHD Graphics 630</p>
+      <p><button>Add to Cart</button></p>
     </div>
-    <div>
-      $259.99
+    <div class="product_card">
+      <img src="motherboard.jpg" alt="Motherboard" style="width:100%">
+      <h1>ASUS ROG STRIX Z490-F Motherboard</h1>
+      <p class="price">$259.99</p>
+      <p>GAMING LGA 1200 Intel Z490 SATA 6Gb/s ATX Intel Motherboard</p>
+      <p><button>Add to Cart</button></p>
     </div>
-
-    <!-- Powersupply product -->
-    <div>
-      EVGA SuperNOVA 1300 G2 120-G2-1300-XR 80+ GOLD 1300W Fully Modular Includes FREE Power On Self Tester Power Supply
+    <div class="product_card">
+      <img src="ram.jpg" alt="RAM" style="width:100%">
+      <h1>G.SKILL TridentZ RAM</h1>
+      <p class="price">$509.99</p>
+      <p>64GB (8 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel X99 Platform Desktop Memory Model F4-3200C14Q2-64GTZSW</p>
+      <p><button>Add to Cart</button></p>
     </div>
-    <div>
-      $289.99    
+    <div class="product_card">
+      <img src="powersupply.jpg" alt="" style="width:100%">
+      <h1>EVGA SuperNOVA 1300 Powersupply</h1>
+      <p class="price">$289.99</p>
+      <p>80+ GOLD 1300W Fully Modular Includes FREE Power On Self Tester Power Supply.</p>
+      <p><button>Add to Cart</button></p>
     </div>
-
-    <!-- RAM product -->
-    <div>
-      G.SKILL TridentZ Series 64GB (8 x 8GB) 288-Pin DDR4 SDRAM DDR4 3200 (PC4 25600) Intel X99 Platform Desktop Memory Model F4-3200C14Q2-64GTZSW
+    <div class="product_card">
+      <img src="case.jpg" alt="Case" style="width:100%">
+      <h1>Fractal Design Meshify C White Case</h1>
+      <p class="price">$89.99</p>
+      <p>Tempered Glass ATX Mid Tower High-Airflow Compact Clear Tempered Glass Computer Case</p>
+      <p><button>Add to Cart</button></p>
     </div>
-    <div>
-      $509.99
-    </div>
-
-    <!-- Case product -->
-    <div>
-      Fractal Design Meshify C White - TG FD-CA-MESH-C-WT-TGC White Steel / Tempered Glass ATX Mid Tower High-Airflow Compact Clear Tempered Glass Computer Case
-    </div>
-    <div>
-      $89.99
-    </div>
-  </div>
 
   </div>
-
-  
-
 </body>
+
 </html>
